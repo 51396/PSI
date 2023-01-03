@@ -125,7 +125,7 @@ def psi_deps():
     # Golang.
     go_rules_dependencies()
 
-    go_register_toolchains(version = "1.19")
+    go_register_toolchains()
 
     rules_pkg_dependencies()
 
